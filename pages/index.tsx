@@ -23,12 +23,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Layout>
-        <Hero
-          title="Store and share your content on Web3!"
-          subtitle="Completely decentralized, powered by FEVM & Lighthouse."
-        />
-      </Layout>
+      <Hero
+        title="Store and share your content on Web3!"
+        subtitle="Completely decentralized, powered by FEVM & Lighthouse."
+      />
     </>
   );
 }
